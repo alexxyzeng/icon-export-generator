@@ -25,10 +25,19 @@ module.exports = function () {
             global.iconList = []
           }
           global.iconList.push({
-            type, theme
+            type, theme: parseType(theme)
           })
         }
       }
     }
   }
+}
+
+function parseType(theme) {
+  const typeEnum = {
+    filled: 'fill',
+    outlined: 'outline',
+    twoTone: 'twoTone'
+  }
+  return typeEnum[theme]
 }

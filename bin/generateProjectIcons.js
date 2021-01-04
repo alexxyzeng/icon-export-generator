@@ -1,44 +1,50 @@
 #!/usr/bin/env node
 const fs = require('fs')
 const path = require('path')
-const result = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'result.json'), 'utf-8'))
+const babel = require('@babel/core')
 
-let icons = {}
+const { isValidComponentDirectory, isValidComponentPath } = require('../helper')
 
-const ThemeEnum = {
-  outline: 'Outline',
-  fill: 'Fill',
-  twoTone: 'TwoTone'
+const parseProjectIcon = require('../parseProjectIcon')
+
+
+const cwd = process.cwd()
+
+const iconPath = path.resolve(__dirname, 'project.json')
+let result = []
+if (fs.existsSync(iconPath)) {
+  result = JSON.parse(fs.readFileSync(iconPath, 'utf-8'))
 }
 
-for (let i of result) {
-  for (let j in i) {
-    const iconList = i[j]
-    iconList.forEach(icon => {
-      const { type, theme = 'outline' } = icon
-      const iconName = toUpperCase(type) + ThemeEnum[theme]
-      if (!icons[iconName]) {
-        icons[iconName] = `export { default as ${iconName} } from '@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}'`
+function getProjectIcons(pathName) {
+  const currentPath = path.resolve(pathName)
+  const paths = fs.readdirSync(currentPath)
+  paths.forEach(p => {
+    const targetPath = path.resolve(pathName, p)
+    const stat = fs.statSync(targetPath)
+    if (stat.isDirectory() && isValidComponentDirectory(targetPath)) {
+      getProjectIcons(targetPath)
+    } else if (stat.isFile() && isValidComponentPath(targetPath)) {
+      global.iconList = []
+      const file = fs.readFileSync(targetPath, 'utf-8').toString()
+      const plugins = [
+        parseProjectIcon,
+        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-proposal-optional-chaining',
+        '@babel/plugin-proposal-export-default-from'
+        // '@babel/plugin-transform-react-jsx',
+        // '@babel/plugin-syntax-jsx',
+        // '@babel/plugin-transform-react-display-name',
+      ];
+      babel.transform(file, { plugins, presets: ['@babel/preset-react'] })
+      if (global.iconList && global.iconList.length > 0) {
+        result.push({
+          [targetPath.replace(cwd, '')]: global.iconList
+        })
       }
-    })
-  }
+    }
+  })
+  fs.writeFileSync(iconPath, JSON.stringify(result, null, 2))
 }
 
-fs.writeFileSync('project.json', JSON.stringify(icons, null, 2))
-
-const iconList = []
-for (let i in icons) {
-  iconList.push(icons[i])
-}
-fs.writeFileSync(path.resolve(__dirname, 'icon.js'), iconList.join('\n'))
-
-
-function toUpperCase(name) {
-  const nameList = name.split('-')
-  return nameList.map(nameItem => {
-    const initial = nameItem.slice(0, 1)
-    const restStr = nameItem.slice(1, nameItem.length)
-    return initial.toUpperCase() + restStr
-  }).join('')
-}
-
+getProjectIcons(cwd)

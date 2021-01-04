@@ -19,6 +19,9 @@ for (let i of result) {
     iconList.forEach(icon => {
       const { type, theme = 'outline' } = icon
       const iconName = toUpperCase(type) + ThemeEnum[theme]
+      console.log('====================================');
+      console.log(iconName, '----', type, theme);
+      console.log('====================================');
       if (!icons[iconName]) {
         icons[iconName] = `export { default as ${iconName} } from '@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}'`
       }
@@ -26,7 +29,7 @@ for (let i of result) {
   }
 }
 
-fs.writeFileSync('result.json', JSON.stringify(icons, null, 2))
+// fs.writeFileSync('result.json', JSON.stringify(icons, null, 2))
 
 const iconList = []
 for (let i in icons) {
