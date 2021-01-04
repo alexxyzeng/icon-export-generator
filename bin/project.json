@@ -1,0 +1,558 @@
+[
+  {
+    "/ApprovalFlow/approvalOperation/actions/DeleteAction.js": [
+      {
+        "type": "question-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/ApprovalFlow/approvalOperation/actions/ReimburseAction.js": [
+      {
+        "type": "question-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/AutoForm/items/MapSelect/index.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/BatchImport/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/CheckBoxSelectModal/index.js": [
+      {
+        "type": "plus-square",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/CollapseFloor/index.js": [
+      {
+        "type": "up",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Energy/FeeTable/components/EditInputTaxModal/BseInfo.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Energy/FeeTable/components/EditModal/BseInfo.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Energy/FeeTable/components/EditModal/CostShareInfo.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Energy/FeeTable/index.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/FeeShareTable/index.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/FormEditor/editor/Nav.js": [
+      {
+        "type": "apple",
+        "theme": "outline"
+      },
+      {
+        "type": "apple",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Grids/TinyChartCard/index.js": [
+      {
+        "type": "info-circle-o",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Grids/ToolsChartCard/index.js": [
+      {
+        "type": "info-circle-o",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Upload/dragger.js": [
+      {
+        "type": "cloud-upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Upload/file.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/Upload/index.js": [
+      {
+        "type": "plus",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/approval/components/approvalDetail/components/form.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/financedepartment/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/financedepartment/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/financedepartment/reporting/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/financedepartment/reporting/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertycorporation/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertycorporation/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertycorporation/reporting/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertycorporation/reporting/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertymanager/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertymanager/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/budgeting/propertysubsidiary/index.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetDetail/index.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetEnergyDetail/components/ApprovalInfo.js": [
+      {
+        "type": "info-circle-o",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetEnergyDetail/components/ApprovalTop.js": [
+      {
+        "type": "left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetExpenseDetail/components/ApprovalTop.js": [
+      {
+        "type": "left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetPropertyDetail/components/ApprovalTop.js": [
+      {
+        "type": "left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/components/BudgetSubject/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/energy/apply/components/BaseInfo.js": [
+      {
+        "type": "info-circle-o",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/execution/apply/$from/$id/components/form.js": [
+      {
+        "type": "info-circle-o",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/budget/execution/components/Detail.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/createApproval/components/BaseInfo.js": [
+      {
+        "type": "plus",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/energy/record/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/estate/distribution/components/DetailBox/RecordModal.js": [
+      {
+        "type": "up",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/estate/plan/components/PlanRecord.js": [
+      {
+        "type": "up",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/estate/property/detail/components/form.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/estate/register/components/estateRegisterForm.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/o/500/index.js": [
+      {
+        "type": "arrow-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/o/login/index.js": [
+      {
+        "type": "user",
+        "theme": "outline"
+      },
+      {
+        "type": "lock",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/operation/monthly/components/Upload.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/project/list/detail/components/File/useFormItems.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/project/list/detail/components/Task/TaskItemView.js": [
+      {
+        "type": "ellipsis",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/project/list/detail/components/Task/useTaskFormItems.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/project/template/$from/components/StepsView.js": [
+      {
+        "type": "plus-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/property/home/propertylist/$from/edit/components/AddressView.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/safetyCheck/list/$from/$id/components/form.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      },
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/site/approval/detail/components/ApprovalInfo.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/site/approval/detail/components/ApprovalTop.js": [
+      {
+        "type": "left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/supplier/supplierlist/add/$from/components/AddressView.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/test/budget/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/test/budgetSubject/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/activity/detail/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/activity/detail/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/components/TurnoverApprovalDetail/index.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/register/components/FormItem.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/use/apply/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/use/apply/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/use/assign/component/UserInfo.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/use/employee/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/turnover/use/employee/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "/alert/index.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "InfoCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "InfoCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/back-top/index.tsx": [
+      {
+        "type": "VerticalAlignTop",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/breadcrumb/BreadcrumbItem.tsx": [
+      {
+        "type": "Down",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/button/LoadingIcon.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/cascader/index.tsx": [
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "Down",
+        "theme": "outline"
+      },
+      {
+        "type": "Right",
+        "theme": "outline"
+      },
+      {
+        "type": "Redo",
+        "theme": "outline"
+      },
+      {
+        "type": "Left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/collapse/Collapse.tsx": [
+      {
+        "type": "Right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/date-picker/generatePicker/generateRangePicker.tsx": [
+      {
+        "type": "Calendar",
+        "theme": "outline"
+      },
+      {
+        "type": "ClockCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "SwapRight",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/date-picker/generatePicker/generateSinglePicker.tsx": [
+      {
+        "type": "Calendar",
+        "theme": "outline"
+      },
+      {
+        "type": "ClockCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/drawer/index.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/dropdown/dropdown-button.tsx": [
+      {
+        "type": "Ellipsis",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/dropdown/dropdown.tsx": [
+      {
+        "type": "Right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/form/FormItemInput.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/form/FormItemLabel.tsx": [
+      {
+        "type": "QuestionCircle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/input/ClearableLabeledInput.tsx": [
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/input/Password.tsx": [
+      {
+        "type": "Eye",
+        "theme": "outline"
+      },
+      {
+        "type": "EyeInvisible",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/input/Search.tsx": [
+      {
+        "type": "Search",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/input-number/index.tsx": [
+      {
+        "type": "Up",
+        "theme": "outline"
+      },
+      {
+        "type": "Down",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/layout/Sider.tsx": [
+      {
+        "type": "Bars",
+        "theme": "outline"
+      },
+      {
+        "type": "Right",
+        "theme": "outline"
+      },
+      {
+        "type": "Left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/message/index.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "InfoCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/modal/Modal.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/modal/confirm.tsx": [
+      {
+        "type": "InfoCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/notification/index.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "outline"
+      },
+      {
+        "type": "InfoCircle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/page-header/index.tsx": [
+      {
+        "type": "ArrowLeft",
+        "theme": "outline"
+      },
+      {
+        "type": "ArrowRight",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pagination/Pagination.tsx": [
+      {
+        "type": "Left",
+        "theme": "outline"
+      },
+      {
+        "type": "Right",
+        "theme": "outline"
+      },
+      {
+        "type": "DoubleLeft",
+        "theme": "outline"
+      },
+      {
+        "type": "DoubleRight",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/popconfirm/index.tsx": [
+      {
+        "type": "ExclamationCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/progress/progress.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      },
+      {
+        "type": "Check",
+        "theme": "outline"
+      },
+      {
+        "type": "CheckCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/rate/index.tsx": [
+      {
+        "type": "Star",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/result/index.tsx": [
+      {
+        "type": "CheckCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "ExclamationCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "Warning",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/steps/index.tsx": [
+      {
+        "type": "Check",
+        "theme": "outline"
+      },
+      {
+        "type": "Close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/switch/index.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/table/hooks/useFilter/FilterDropdown.tsx": [
+      {
+        "type": "Filter",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "/table/hooks/useSelection.tsx": [
+      {
+        "type": "Down",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/table/hooks/useSorter.tsx": [
+      {
+        "type": "CaretDown",
+        "theme": "outline"
+      },
+      {
+        "type": "CaretUp",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/tabs/index.tsx": [
+      {
+        "type": "Ellipsis",
+        "theme": "outline"
+      },
+      {
+        "type": "Plus",
+        "theme": "outline"
+      },
+      {
+        "type": "Close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/tag/index.tsx": [
+      {
+        "type": "Close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/timeline/Timeline.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/transfer/ListItem.tsx": [
+      {
+        "type": "Delete",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/transfer/list.tsx": [
+      {
+        "type": "Down",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/transfer/operation.tsx": [
+      {
+        "type": "Left",
+        "theme": "outline"
+      },
+      {
+        "type": "Right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/transfer/search.tsx": [
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "Search",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/tree/DirectoryTree.tsx": [
+      {
+        "type": "File",
+        "theme": "outline"
+      },
+      {
+        "type": "FolderOpen",
+        "theme": "outline"
+      },
+      {
+        "type": "Folder",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/typography/Base.tsx": [
+      {
+        "type": "Edit",
+        "theme": "outline"
+      },
+      {
+        "type": "Check",
+        "theme": "outline"
+      },
+      {
+        "type": "Copy",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/typography/Editable.tsx": [
+      {
+        "type": "Enter",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/upload/UploadList/ListItem.tsx": [
+      {
+        "type": "Eye",
+        "theme": "outline"
+      },
+      {
+        "type": "Delete",
+        "theme": "outline"
+      },
+      {
+        "type": "Download",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/upload/UploadList/index.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "PaperClip",
+        "theme": "outline"
+      },
+      {
+        "type": "Picture",
+        "theme": "twoTone"
+      },
+      {
+        "type": "File",
+        "theme": "twoTone"
+      }
+    ]
+  }
+]
