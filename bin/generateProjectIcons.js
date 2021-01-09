@@ -12,9 +12,6 @@ const cwd = process.cwd()
 
 const iconPath = path.resolve(__dirname, 'project.json')
 let result = []
-if (fs.existsSync(iconPath)) {
-  result = JSON.parse(fs.readFileSync(iconPath, 'utf-8'))
-}
 
 function getProjectIcons(pathName) {
   const currentPath = path.resolve(pathName)

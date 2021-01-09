@@ -1,5 +1,37 @@
 [
   {
+    "/components/ApprovalFlow/approvalOperation/actions/DeleteAction.js": [
+      {
+        "type": "question-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/ApprovalFlow/approvalOperation/actions/ReimburseAction.js": [
+      {
+        "type": "question-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/AutoForm/items/MapSelect/index.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/BatchImport/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
     "/components/CheckBoxSelectModal/index.js": [
       {
         "type": "plus-square",
@@ -8,21 +40,77 @@
     ]
   },
   {
-    "/components/ExportLoading/index.js": [
+    "/components/CollapseFloor/index.js": [
       {
-        "type": "loading",
+        "type": "up",
         "theme": "outline"
       }
     ]
   },
   {
-    "/components/ImgViewModal/index.js": [
+    "/components/Energy/FeeTable/components/EditInputTaxModal/BseInfo.js": [
       {
-        "type": "left",
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Energy/FeeTable/components/EditModal/BseInfo.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Energy/FeeTable/components/EditModal/CostShareInfo.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Energy/FeeTable/index.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/FeeShareTable/index.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/FormEditor/editor/Nav.js": [
+      {
+        "type": "apple",
         "theme": "outline"
       },
       {
-        "type": "right",
+        "type": "apple",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Grids/TinyChartCard/index.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Grids/ToolsChartCard/index.js": [
+      {
+        "type": "info-circle",
         "theme": "outline"
       }
     ]
@@ -31,6 +119,14 @@
     "/components/Upload/dragger.js": [
       {
         "type": "cloud-upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/components/Upload/file.js": [
+      {
+        "type": "upload",
         "theme": "outline"
       }
     ]
@@ -84,51 +180,35 @@
     ]
   },
   {
-    "/pages/base/import/components/OperateModal.js": [
+    "/layouts/oldLayout/AuthRequiredLayout/index.js": [
       {
-        "type": "cloud-upload",
+        "type": "loading",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/base/workgroup/components/ExecutorList.js": [
+    "/layouts/oldLayout/GlobalHeader/index.js": [
       {
-        "type": "arrow-down",
+        "type": "user",
         "theme": "outline"
       },
       {
-        "type": "arrow-up",
+        "type": "down",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/data-analystic/components/AnalyticChartTitle.js": [
+    "/layouts/oldLayout/GlobalNotification/index.js": [
       {
-        "type": "exclamation-circle",
-        "theme": "twoTone"
-      }
-    ]
-  },
-  {
-    "/pages/data-analystic/components/CardInfo.js": [
-      {
-        "type": "info-circle",
+        "type": "bell",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/facility/ledger/$from/$id.js": [
-      {
-        "type": "download",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/home/components/Home/RightContent.js": [
+    "/layouts/oldLayout/GlobalProjectSwitch/index.js": [
       {
         "type": "environment",
         "theme": "outline"
@@ -136,118 +216,226 @@
     ]
   },
   {
-    "/pages/home/components/ProjectHome/Statistics.js": [
+    "/pages/approval/components/approvalDetail/components/form.js": [
       {
-        "type": "double-right",
+        "type": "link",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/inspection/template/components/CheckTable/index.js": [
+    "/pages/budget/budgeting/financedepartment/components/PropertyTable.js": [
       {
-        "type": "arrow-down",
-        "theme": "outline"
-      },
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/financedepartment/components/SubjectTable.js": [
       {
-        "type": "arrow-up",
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/financedepartment/reporting/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/financedepartment/reporting/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertycorporation/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertycorporation/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertycorporation/reporting/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertycorporation/reporting/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertymanager/components/PropertyTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertymanager/components/SubjectTable.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/budgeting/propertysubsidiary/index.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetCostTable/Table.js": [
+      {
+        "type": "info",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/maintenance/calendar/components/MaintenanceCalendarNavigator.js": [
+    "/pages/budget/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetDetail/index.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetEnergyDetail/components/ApprovalInfo.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetEnergyDetail/components/ApprovalTop.js": [
       {
         "type": "left",
         "theme": "outline"
-      },
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetExpenseDetail/components/ApprovalTop.js": [
       {
-        "type": "right",
+        "type": "left",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/maintenance/components/WorkNoticeCard.js": [
+    "/pages/budget/components/BudgetPropertyDetail/components/ApprovalTop.js": [
       {
-        "type": "plus-square",
+        "type": "left",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetSubject/components/BudgetCostTable/Table.js": [
+      {
+        "type": "info",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/components/BudgetSubject/components/BudgetCostTable/index.js": [
+      {
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/energy/apply/components/BaseInfo.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/execution/apply/$from/$id/components/form.js": [
+      {
+        "type": "info-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/budget/execution/components/Detail.js": [
+      {
+        "type": "exclamation-circle",
+        "theme": "twoTone"
+      }
+    ]
+  },
+  {
+    "/pages/createApproval/components/BaseInfo.js": [
+      {
+        "type": "plus",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/energy/record/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/estate/distribution/components/DetailBox/RecordModal.js": [
+      {
+        "type": "up",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/estate/list/index.js": [
+      {
+        "type": "appstore",
         "theme": "fill"
-      },
-      {
-        "type": "minus-square",
-        "theme": "fill"
-      }
-    ]
-  },
-  {
-    "/pages/maintenance/order/search/components/SearchTool.js": [
-      {
-        "type": "double-left",
-        "theme": "outline"
-      },
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/maintenance/order/trace/components/DetailCard.js": [
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/maintenance/order/trace/components/FilterCard.js": [
-      {
-        "type": "double-left",
-        "theme": "outline"
-      },
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/order/find/components/SearchTool.js": [
-      {
-        "type": "double-left",
-        "theme": "outline"
-      },
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/order/trace/components/DetailCard.js": [
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/order/trace/components/FilterCard.js": [
-      {
-        "type": "double-left",
-        "theme": "outline"
-      },
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/order/trace/components/ListCard.js": [
-      {
-        "type": "user",
-        "theme": "outline"
       },
       {
         "type": "unordered-list",
@@ -256,59 +444,23 @@
     ]
   },
   {
-    "/pages/polling/point/$form/components/Complex.js": [
+    "/pages/estate/plan/components/PlanRecord.js": [
       {
-        "type": "arrow-down",
-        "theme": "outline"
-      },
-      {
-        "type": "arrow-up",
+        "type": "up",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/polling/point/$form/components/Device.js": [
+    "/pages/estate/property/detail/components/form.js": [
       {
-        "type": "arrow-down",
-        "theme": "outline"
-      },
-      {
-        "type": "arrow-up",
-        "theme": "outline"
-      },
-      {
-        "type": "arrow-down",
-        "theme": "outline"
-      },
-      {
-        "type": "arrow-up",
+        "type": "upload",
         "theme": "outline"
       }
     ]
   },
   {
-    "/pages/polling/point/components/form.js": [
-      {
-        "type": "download",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/polling/template/index.js": [
-      {
-        "type": "arrow-down",
-        "theme": "outline"
-      },
-      {
-        "type": "arrow-up",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/project/list/$from/components/AddressView.js": [
+    "/pages/estate/register/components/estateRegisterForm.js": [
       {
         "type": "close",
         "theme": "outline"
@@ -316,7 +468,7 @@
     ]
   },
   {
-    "/pages/prompt/expect/$type.js": [
+    "/pages/o/500/index.js": [
       {
         "type": "arrow-right",
         "theme": "outline"
@@ -324,89 +476,201 @@
     ]
   },
   {
-    "/pages/service/components/StageWrap.js": [
-      {
-        "type": "double-right",
-        "theme": "outline"
-      }
-    ]
-  },
-  {
-    "/pages/service/stage/components/ListView.js": [
-      {
-        "type": "bars",
-        "theme": "outline"
-      },
+    "/pages/o/login/index.js": [
       {
         "type": "user",
         "theme": "outline"
+      },
+      {
+        "type": "lock",
+        "theme": "outline"
       }
     ]
   },
   {
-    "/pages/system/individuation/components/ImageCard.js": [
+    "/pages/operation/monthly/components/Upload.js": [
       {
-        "type": "edit",
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/project/list/detail/components/File/useFormItems.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/project/list/detail/components/Task/TaskItemView.js": [
+      {
+        "type": "ellipsis",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/project/list/detail/components/Task/useTaskFormItems.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/project/template/$from/components/StepsView.js": [
+      {
+        "type": "plus-circle",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/property/home/propertylist/$from/edit/components/AddressView.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/safetyCheck/list/$from/$id/components/form.js": [
+      {
+        "type": "upload",
         "theme": "outline"
       },
       {
-        "type": "reload",
+        "type": "upload",
         "theme": "outline"
       }
     ]
   },
   {
-    "/fam-component/components/ErrorPage/index.js": [
+    "/pages/site/approval/detail/components/ApprovalInfo.js": [
       {
-        "type": "arrow-right",
+        "type": "link",
         "theme": "outline"
       }
     ]
   },
   {
-    "/fam-component/components/NotFoundPage/index.js": [
+    "/pages/site/approval/detail/components/ApprovalTop.js": [
       {
-        "type": "arrow-right",
+        "type": "left",
         "theme": "outline"
       }
     ]
   },
   {
-    "/layouts/AuthRequiredLayout/Header/Info/index.js": [
+    "/pages/supplier/supplierlist/add/$from/components/AddressView.js": [
       {
-        "type": "bell",
+        "type": "close",
         "theme": "outline"
       }
     ]
   },
   {
-    "/layouts/AuthRequiredLayout/Header/Partition/index.js": [
+    "/pages/test/budget/components/BudgetCostTable/Table.js": [
       {
-        "type": "environment",
+        "type": "info",
         "theme": "outline"
       }
     ]
   },
   {
-    "/layouts/AuthRequiredLayout/Header/Project/index.js": [
+    "/pages/test/budget/components/BudgetCostTable/index.js": [
       {
-        "type": "environment",
+        "type": "caret-right",
         "theme": "outline"
       }
     ]
   },
   {
-    "/layouts/AuthRequiredLayout/Header/index.js": [
+    "/pages/test/budgetSubject/components/BudgetCostTable/Table.js": [
       {
-        "type": "environment",
+        "type": "info",
         "theme": "outline"
       }
     ]
   },
   {
-    "/layouts/AuthRequiredLayout/index.js": [
+    "/pages/test/budgetSubject/components/BudgetCostTable/index.js": [
       {
-        "type": "loading",
+        "type": "caret-right",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/activity/detail/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/activity/detail/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/components/TurnoverApprovalDetail/index.js": [
+      {
+        "type": "link",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/register/components/FormItem.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/use/apply/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/use/apply/components/ImportModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/use/assign/component/UserInfo.js": [
+      {
+        "type": "close",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/use/employee/components/ImportForModal.js": [
+      {
+        "type": "upload",
+        "theme": "outline"
+      }
+    ]
+  },
+  {
+    "/pages/turnover/use/employee/components/ImportModal.js": [
+      {
+        "type": "upload",
         "theme": "outline"
       }
     ]

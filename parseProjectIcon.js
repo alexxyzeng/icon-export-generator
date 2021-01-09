@@ -28,6 +28,29 @@ module.exports = function () {
             type, theme: parseType(theme)
           })
         }
+        if (name.name === 'Button' || name.name === 'Avatar') {
+          let type = ''
+          let theme = 'outlined'
+          attributes.forEach(attribute => {
+            if (!attribute.name || !attribute.value) {
+              return
+            }
+            if (attribute.name.name === 'icon' && typeof attribute.value.value === 'string') {
+              
+              type = attribute.value.value
+              if (!type || !theme) {
+                return
+              }
+              if (!global.iconList) {
+                global.iconList = []
+              }
+              global.iconList.push({
+                type, theme: parseType(theme)
+              })
+            }
+  
+          })
+        }
       }
     }
   }

@@ -19,10 +19,8 @@ for (let i of result) {
     iconList.forEach(icon => {
       const { type, theme = 'outline' } = icon
       const iconName = toUpperCase(type) + ThemeEnum[theme]
-      console.log('====================================');
-      console.log(iconName, '----', type, theme);
-      console.log('====================================');
       if (!icons[iconName]) {
+        // icons[iconName] = `exports.${iconName} = require('@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}').default`
         icons[iconName] = `export { default as ${iconName} } from '@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}'`
       }
     })
@@ -35,7 +33,10 @@ const iconList = []
 for (let i in icons) {
   iconList.push(icons[i])
 }
-fs.writeFileSync(path.resolve(process.cwd(), 'icon.js'), iconList.join('\n'))
+
+// const template = fs.readFileSync(path.resolve(__dirname, '..', 'template.js'), 'utf-8')
+
+fs.writeFileSync(path.resolve(process.cwd(), 'icon.js'), iconList.join('\n') + '\n')
 
 
 function toUpperCase(name) {
