@@ -646,5 +646,33 @@
         "theme": "fill"
       }
     ]
+  },
+  {
+    "components/select/utils": [
+      {
+        "type": "Down",
+        "theme": "outline"
+      },
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "Check",
+        "theme": "outline"
+      },
+      {
+        "type": "Close",
+        "theme": "outline"
+      },
+      {
+        "type": "CloseCircle",
+        "theme": "fill"
+      },
+      {
+        "type": "Search",
+        "theme": "outline"
+      }
+    ]
   }
 ]
