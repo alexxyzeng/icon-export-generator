@@ -598,5 +598,53 @@
         "theme": "twoTone"
       }
     ]
+  },
+  {
+    "components/tree/utils/iconUtil.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "File",
+        "theme": "outline"
+      },
+      {
+        "type": "MinusSquare",
+        "theme": "outline"
+      },
+      {
+        "type": "PlusSquare",
+        "theme": "outline"
+      },
+      {
+        "type": "CaretDown",
+        "theme": "fill"
+      }
+    ]
+  },
+  {
+    "components/select/util/iconUtil.tsx": [
+      {
+        "type": "Loading",
+        "theme": "outline"
+      },
+      {
+        "type": "File",
+        "theme": "outline"
+      },
+      {
+        "type": "MinusSquare",
+        "theme": "outline"
+      },
+      {
+        "type": "PlusSquare",
+        "theme": "outline"
+      },
+      {
+        "type": "CaretDown",
+        "theme": "fill"
+      }
+    ]
   }
 ]
