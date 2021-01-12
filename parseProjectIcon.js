@@ -1,4 +1,5 @@
-module.exports = function () {
+const fs = require('fs')
+module.exports = function() {
   return {
     visitor: {
       JSXElement(path) {
@@ -12,6 +13,13 @@ module.exports = function () {
           }
           attributes.forEach(attribute => {
             if (attribute.name.name === 'type') {
+              if (typeof attribute.value.value !== 'string') {
+                if (!global.errorList) {
+                  global.errorList = []
+                }
+                global.errorList.push(attribute.loc.start)
+                return
+              }
               type = attribute.value.value
             }
             if (attribute.name.name === 'theme') {
@@ -25,7 +33,8 @@ module.exports = function () {
             global.iconList = []
           }
           global.iconList.push({
-            type, theme: parseType(theme)
+            type,
+            theme: parseType(theme)
           })
         }
         if (name.name === 'Button' || name.name === 'Avatar') {
@@ -35,8 +44,15 @@ module.exports = function () {
             if (!attribute.name || !attribute.value) {
               return
             }
-            if (attribute.name.name === 'icon' && typeof attribute.value.value === 'string') {
-              
+            if (attribute.name.name === 'icon') {
+              if (typeof attribute.value.value !== 'string') {
+                console.log(attribute.value.value)
+                if (!global.errorList) {
+                  global.errorList = []
+                }
+                global.errorList.push(attribute.loc.start)
+                return
+              }
               type = attribute.value.value
               if (!type || !theme) {
                 return
@@ -45,10 +61,10 @@ module.exports = function () {
                 global.iconList = []
               }
               global.iconList.push({
-                type, theme: parseType(theme)
+                type,
+                theme: parseType(theme)
               })
             }
-  
           })
         }
       }

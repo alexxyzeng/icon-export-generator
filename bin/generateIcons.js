@@ -20,7 +20,6 @@ for (let i of result) {
       const { type, theme = 'outline' } = icon
       const iconName = toUpperCase(type) + ThemeEnum[theme]
       if (!icons[iconName]) {
-        // icons[iconName] = `exports.${iconName} = require('@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}').default`
         icons[iconName] = `export { default as ${iconName} } from '@ant-design/icons/lib/${theme.toLowerCase()}/${iconName}'`
       }
     })

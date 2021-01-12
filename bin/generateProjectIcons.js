@@ -2,7 +2,7 @@
 const fs = require('fs')
 const path = require('path')
 const babel = require('@babel/core')
-
+const chalk = require('chalk')
 const { isValidComponentDirectory, isValidComponentPath } = require('../helper')
 
 const parseProjectIcon = require('../parseProjectIcon')
@@ -29,11 +29,18 @@ function getProjectIcons(pathName) {
         '@babel/plugin-proposal-class-properties',
         '@babel/plugin-proposal-optional-chaining',
         '@babel/plugin-proposal-export-default-from'
-        // '@babel/plugin-transform-react-jsx',
-        // '@babel/plugin-syntax-jsx',
-        // '@babel/plugin-transform-react-display-name',
       ];
+      global.errorList = []
       babel.transform(file, { plugins, presets: ['@babel/preset-react'] })
+      if (global.errorList && global.errorList.length > 0) {
+        global.errorList.forEach(error => {
+          console.log(
+            `There is an ${chalk.red('unparsed')} icon in file: ${chalk.yellow(
+              `${targetPath}:${error.line}:${error.column}`
+            )}`
+          )
+        })
+      }
       if (global.iconList && global.iconList.length > 0) {
         result.push({
           [targetPath.replace(cwd, '')]: global.iconList
