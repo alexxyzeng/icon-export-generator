@@ -448,6 +448,14 @@
       {
         "type": "CaretUp",
         "theme": "outline"
+      },
+      {
+        "type": "CaretDown",
+        "theme": "fill"
+      },
+      {
+        "type": "CaretUp",
+        "theme": "fill"
       }
     ]
   },

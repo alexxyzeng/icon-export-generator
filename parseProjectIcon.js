@@ -46,7 +46,6 @@ module.exports = function() {
             }
             if (attribute.name.name === 'icon') {
               if (typeof attribute.value.value !== 'string') {
-                console.log(attribute.value.value)
                 if (!global.errorList) {
                   global.errorList = []
                 }
