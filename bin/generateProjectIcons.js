@@ -31,7 +31,7 @@ function getProjectIcons(pathName) {
         '@babel/plugin-proposal-export-default-from'
       ];
       global.errorList = []
-      babel.transform(file, { plugins, presets: ['@babel/preset-react'] })
+      babel.transform(file, { plugins, presets: ['@babel/preset-typescript', '@babel/preset-react'], filename: 'result.tsx' })
       if (global.errorList && global.errorList.length > 0) {
         global.errorList.forEach(error => {
           console.log(
