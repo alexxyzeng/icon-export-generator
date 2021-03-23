@@ -11,6 +11,7 @@ const parseProjectIcon = require('../parseProjectIcon')
 const cwd = process.cwd()
 
 const iconPath = path.resolve(__dirname, 'project.json')
+const [useTypeScript] = process.argv.slice(2)
 let result = []
 
 function getProjectIcons(pathName) {
@@ -31,7 +32,12 @@ function getProjectIcons(pathName) {
         '@babel/plugin-proposal-export-default-from'
       ];
       global.errorList = []
-      babel.transform(file, { plugins, presets: ['@babel/preset-typescript', '@babel/preset-react'], filename: 'result.tsx' })
+      let config = { plugins, presets: ['@babel/preset-react'] }
+      if (useTypeScript) {
+        config.presets.unshift('@babel/preset-typescript')
+        config.filename = 'result.tsx'
+      }
+      babel.transform(file, config)
       if (global.errorList && global.errorList.length > 0) {
         global.errorList.forEach(error => {
           console.log(
